@@ -1,17 +1,11 @@
 import React from "react"
+import Navigation from "../Components/Navigation"
 
 export default function Home() {
   return (
-    // <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-    //   <div class="flex-shrink-0">
-    //     <img className="h-12 w-12" src="https://i.pinimg.com/originals/7c/0c/d8/7c0cd845982ce44adcc12c4753620127.png" alt="ChitChat Logo"/>
-    //   </div>
-    //   <div>
-    //     <div className="text-xl font-medium text-black">ChitChat</div>
-    //     <p className="text-gray-500">You have a new message!</p>
-    //   </div>
-    // </div>
-    <div class="max-w-md mx-auto bg-white  shadow-md overflow-hidden md:max-w-2xl">
+    <div>
+      <Navigation />
+      <div class="max-w-md mx-auto bg-white shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
         <div class="md:flex-shrink-0">
           <img class="h-48 w-full object-cover md:w-48" src="https://i.pinimg.com/474x/54/c5/42/54c54264bfb0d2085e8ea607bccdb44a.jpg" alt="Man looking at item at a store" />
@@ -23,5 +17,16 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </div>
+    // <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+    //   <div class="flex-shrink-0">
+    //     <img className="h-12 w-12" src="https://i.pinimg.com/originals/7c/0c/d8/7c0cd845982ce44adcc12c4753620127.png" alt="ChitChat Logo"/>
+    //   </div>
+    //   <div>
+    //     <div className="text-xl font-medium text-black">ChitChat</div>
+    //     <p className="text-gray-500">You have a new message!</p>
+    //   </div>
+    // </div>
+    
   )
 }
